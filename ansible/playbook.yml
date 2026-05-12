@@ -4,8 +4,8 @@
   tasks:
     - name: Copy WAR file to Tomcat
       copy:
-        src: "/devopspractice/MyMavenWebApp04/target/MymavenwebApp04.war"
-        dest: "/opt/tomcat/webapps/MymavenwebApp04.war"
+        src: "/devopspractice/MyMavenWebApp04/target/MyMavenWebApp04.war"
+        dest: "/opt/tomcat/webapps/MyMavenWebApp04.war"
         remote_src: no
 
     - name: Restart Tomcat
